@@ -1,0 +1,31 @@
+1.  Print H pattern
+num = int(input("Enter number: "))
+for i in range(1, num+1):
+    for j in range(1, num+1):
+        if j == 1 or j == num or i == (num // 2) + 1:
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
+
+2.  Print N pattern
+ num = int(input("Enter number: "))
+for i in range(1, num+1):
+    for j in range(1, num+1):
+        if  j == 1 or j == num or i==j:
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
+
+3.   Print E pattern
+num = int(input("Enter number: "))
+for i in range(1, num+1):
+    for j in range(1, num+1):
+        if j == 1 or i == 1 or i == num or i == (num // 2) + 1:
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
+
+
